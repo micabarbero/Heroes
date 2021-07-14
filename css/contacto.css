@@ -1,0 +1,53 @@
+@import url(base.css);
+@import url(header.css);
+@import url(styles.css);
+
+body{
+    background-image: url(../img/35-353383_super-heroes-wallpapers-superhero-background.jpg);
+    background-size: cover;
+}
+
+.container{
+    height: 100%;
+    width: 40%;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #00669F;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container h2{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.container form{
+    color:white;
+    padding: 5px;
+}
+
+.container form input{
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.container form textarea{
+    padding: 15px;
+    margin-top: 10px;
+    height: 100px;
+}
+
+.button-form{
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.button-form:hover{
+    background-color: white;
+    color:black;
+}

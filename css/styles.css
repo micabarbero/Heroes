@@ -1,0 +1,143 @@
+@import url(base.css);
+@import url(header.css);
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+}
+
+textarea{
+    resize: none;
+}
+
+.dto{
+    width: 100%;
+    height: 38px;
+    left: 0;
+    top: 0;
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+
+/* body */
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+/* CONTENEDOR DE CADA CARD DE SH */
+.cards {
+    width:300px;
+    background-color:#F3F3F3;
+    border-radius: 15px;
+}
+
+/* CARDS
+.cards{
+    align-items: center;
+    background-color:#F3F3F3;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    padding: 20px;
+    position: relative;
+    width: 30%;
+} */
+
+.card-header{
+    position: relative;
+    height: 30vh;
+}
+
+.corazon{
+    color: red;
+    font-size: 2em;
+    padding: 15px;
+    box-shadow: 0px 10px 7px rgb(0 0 0 / 25%);
+}
+
+.fondo-card{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.fondo-superman{
+    background-image: url(../img/portadasuperman.png);
+}
+
+.fondo-ww{
+    background-image: url(../img/portadamaravilla.png);
+}
+
+.fondo-harley{
+    background-image: url(../img/portadaharley.png);
+}
+
+.fotoperfil{
+    border-radius: 50%;
+    position: absolute;
+    bottom: -55px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 45%;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: 20%;
+}
+
+p{
+    padding: 20px;
+}
+
+.boton{
+    background-color: #00669F;
+    color: white;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+
+
+
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00669F;
+    text-align: center;
+    height: 20%;
+}
+
+.textofooter{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logogit{
+    height: 10%;
+    width: 5%;
+}
